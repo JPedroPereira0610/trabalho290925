@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="navbar bg-dark navbar-dark navbar-expand-sm py-3 sticky-top hd z-2 back">
+        <div class="container">
+            <a href="index.html" class="navbar-brand d-flex align-center">
+                <img src="ICON_TERRA 2.png" alt="">
+                <p class="mt-3">GeoTechnology</p>
+            </a>
+
+            <div class="collapse navbar-collapse">
+                <div class="navbar-nav ms-auto">
+                  <a href="Inicio.html" class="nav-link">Inicio</a>
+                    <a href="index.html" class="nav-link">Principal</a>
+                    <a href="Faqs.html" class="nav-link">Faqs</a>
+                    <a href="sobre.html" class="nav-link">Sobre</a>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+
+    <div class="pad py-5 border-5">
+       
+      <p>Estamos sempre à disposição para ouvir suas dúvidas, sugestões, relatos de viagem ou propostas de parceria. Preencha o formulário abaixo ou utilize outros canais de comunicação.</p>
+    
+      <!-- Formulário para o usuário enviar uma mensagem -->
+      <h3>Formulário de Contato</h3>
+      <form c>
+        <div class="row">
+          <div class="col-4 d-inline-block border border-3 shadow ">
+            <fieldset>
+              <legend>Seus dados</legend>
+              Nome completo*: <input type="text"><br>
+              E-mail*: <input type="email"><br>
+              Telefone: <input type="text" placeholder="(XX) XXXXX-XXXX"><br>
+              Cidade: <input type="text"><br>
+              <label for="estado">Estado:</label>
+              <select id="estado" name="estado">
+                <option value="">Selecione um estado</option>
+                <option value="ac">Acre</option>
+                <option value="al">Alagoas</option>
+                <option value="ap">Amapá</option>
+                <option value="am">Amazonas</option>
+                <option value="ba">Bahia</option>
+                <option value="ce">Ceará</option>
+                <option value="df">Distrito Federal</option>
+                <option value="es">Espírito Santo</option>
+                <option value="go">Goiás</option>
+                <option value="ma">Maranhão</option>
+                <option value="mt">Mato Grosso</option>
+                <option value="ms">Mato Grosso do Sul</option>
+                <option value="mg">Minas Gerais</option>
+                <option value="pa">Pará</option>
+                <option value="pb">Paraíba</option>
+                <option value="pr">Paraná</option>
+                <option value="pe">Pernambuco</option>
+                <option value="pi">Piauí</option>
+                <option value="rj">Rio de Janeiro</option>
+                <option value="rn">Rio Grande do Norte</option>
+                <option value="rs">Rio Grande do Sul</option>
+                <option value="ro">Rondônia</option>
+                <option value="rr">Roraima</option>
+                <option value="sc">Santa Catarina</option>
+                <option value="sp">São Paulo</option>
+                <option value="se">Sergipe</option>
+                <option value="to">Tocantins</option>
+              </select>
+            <fieldset>
+          </div>
+          
+          <div class="col-4 d-inline-block border border-3 ms-5 shadow">  
+            <legend>Sua mensagem</legend>
+            
+              
+            Mensagem*:<br>
+            <textarea rows="4" style="width: 80%;"></textarea><br>
+            
+          </fieldset>
+        </div>
+      </div>
+      <p>* Campos obrigatórios</p>
+        <fieldset>
+          <input type="checkbox"> Desejo receber novidades e dicas de ecoturismo por e-mail
+        </fieldset>
+      </form>
+    
+      <hr>
+    
+      <div class="row">
+        <div class="col-4 d-inline-block border border-3 shadow">
+          <h3>Outros Canais de Contato</h3>
+          <p><strong>E-mail</strong><br>
+          contato@ecotrilhas.com.br<br>
+          parcerias@ecotrilhas.com.br</p>
+        
+          <p><strong>Telefone</strong><br>
+          (11) 98765-4321 (WhatsApp)<br>
+          (11) 3456-7890 (Horário comercial)</p>
+        </div>
+        <div class="col-4 d-inline-block border border-3 ms-5 shadow">
+          <h3>Nossa Localização</h3>
+          <p>
+            Embora sejamos principalmente um portal online, caso queira nos visitar:<br>
+            <em>Avenida das Araucárias, 1500 - Sala 302<br>
+            Jardim Botânico<br>
+            São Paulo - SP<br>
+            CEP: 04567-000</em>
+          </p>
+        </div>
+      </div>
+    
+      <h3>Mapa</h3>
+      <iframe 
+        class="shadow"
+        src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d1289.3752936288683!2d-46.41105800651245!3d-23.92845135098003!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1spt-BR!2sbr!4v1758761554183!5m2!1spt-BR!2sbr" 
+        width="920" 
+        height="450" 
+        style="border:0;" 
+        allowfullscreen="" 
+        loading="lazy" 
+        referrerpolicy="no-referrer-when-downgrade">
+      </iframe>
+    
+    </div>
+    
+    <footer class="p-4 bg-dark text-light">
+        <div class="navbar bg-dark navbar-dark navbar-expand-sm py-3">
+          <div class="container">
+            <a href="Index.html" class="navbar-brand d-flex align-center">
+                <i class="bi bi-globe-americas"></i>
+                Todos os direitos reservados
+            </a>
+
+            <div class="collapse navbar-collapse">
+                <div class="navbar-nav ms-auto">
+                  <a href="#" class="nav-link">Instagram: @GeoTechnology</a>
+                  <br>               
+                  <a href="#" class="nav-link">YouTube: GeoTechnology Oficial</a>
+                </div>
+            </div>
+            
+          </div>
+        </div>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,66 @@
+.pad
+{
+    padding-left: 20%;
+    
+}
+
+.pad1
+{
+    margin-left: 20%;
+ }
+
+.lead
+{
+    text-align: justify;
+}
+
+.hd
+{
+    height: 100px;
+}
+
+.back
+{
+    background-image: url(floresta.jpg);
+}
+
+.border-3
+{
+    border-style: ridge;
+}
+
+.x
+{
+    height: 500px;
+}
+.fixed
+{
+    position: fixed;
+    top: 11%;
+    right: 15%;
+}
+.imag
+{
+    width: 350px;
+    height: 400px;
+}
+
+.h-10
+{
+    height: 130px;
+    overflow: hidden;
+}
+.h-10:hover
+{
+    height: 320px;
+    overflow: auto;
+}
+
+a
+{
+    text-decoration: none;
+}
+.nav-link
+{
+    color: white;
+}
