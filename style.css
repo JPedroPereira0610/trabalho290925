@@ -4,11 +4,15 @@
     padding-left: 20%;
     
 }
-
 .pad1
 {
-    margin-left: 20%;
+    margin-inline: 5%;
  }
+@media (min-width: 992px) {
+    .pad1 {
+        margin-left: 20%;
+    }
+}
 
 .lead
 {
