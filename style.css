@@ -65,8 +65,10 @@
     width: 350px;
     height: 400px;
 }
-
-
+.alt
+{
+    height: 25%;
+}
 
 a
 {
