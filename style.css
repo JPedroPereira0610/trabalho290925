@@ -49,6 +49,10 @@
 {
     height: 500px;
 }
+.x1
+{
+    height: 400px;
+}
 }
 .fixed
 {
@@ -62,16 +66,7 @@
     height: 400px;
 }
 
-.h-10
-{
-    height: 130px;
-    overflow: hidden;
-}
-.h-10:hover
-{
-    height: 320px;
-    overflow: auto;
-}
+
 
 a
 {
