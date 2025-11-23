@@ -36,7 +36,19 @@
 
 .x
 {
+    height: 600px;
+}
+@media (min-width: 1500px) {
+    .x
+{
     height: 400px;
+}
+}
+@media (min-width: 1350px) {
+    .x
+{
+    height: 500px;
+}
 }
 .fixed
 {
