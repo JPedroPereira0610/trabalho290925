@@ -41,19 +41,15 @@
 @media (min-width: 1500px) {
     .x
 {
-    height: 400px;
-}
-}
-@media (min-width: 1350px) {
-    .x
-{
     height: 500px;
 }
+}
+
 .x1
 {
     height: 400px;
 }
-}
+
 .fixed
 {
     position: fixed;
